@@ -1,0 +1,99 @@
+.carousel-control-next, .carousel-control-prev {
+    color: #000;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-image: none;
+}
+
+.foo {
+    height: 300px;
+    background: #ccc;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 64px;
+    height: 64px;
+}
+
+.__inactive {
+    display: none;
+}
+
+.alice-carousel__prev-btn, .alice-carousel__next-btn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+    cursor: pointer;
+}
+
+.alice-carousel__prev-btn {
+    left: 0;
+}
+
+.alice-carousel__next-btn {
+    right: 0;
+}
+
+.alice-carousel__prev-btn-wrapper, .alice-carousel__next-btn-wrapper {
+    display: inline-block;
+}
+
+.alice-carousel__prev-btn-wrapper p, .alice-carousel__next-btn-wrapper p {
+    margin-bottom: 0px;
+}
+
+.alice-carousel__prev-btn-item:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f104";
+    font-size: 4em;
+    color: blue;
+}
+
+.alice-carousel__next-btn-item:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    font-size: 4em;
+    color: blue;
+}
+
+.alice-carousel__prev-btn-item span, .alice-carousel__next-btn-item span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;    
+}
+
+/* .clcBSf {
+    right: -40px;
+} */
+
+@media screen and (max-width: 600px) {    
+    .sc-EHOje {
+        right: 20px !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .foo {
+        margin: 0 20px;
+    }
+
+    /* .bMSqzq {
+        margin: 0 20px !important;
+    } */
+}
